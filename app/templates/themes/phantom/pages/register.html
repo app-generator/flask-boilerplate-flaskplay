@@ -1,0 +1,42 @@
+
+    <h1>Register</h1>
+
+    <!-- Form -->
+    <section>
+        <p>Enter your credentials: </p>
+        {% if msg %}
+            <p>{{ msg | safe }}</p>
+        {% endif %}
+        
+        <form method="post" action="">
+
+            {{ form.hidden_tag() }}
+            
+            <div class="row gtr-uniform">
+                <div class="col-12 col-12-xsmall">
+                    {{ form.name(placeholder="Friendly Name") }}
+                </div>
+                <div class="col-12 col-12-xsmall">
+                    {{ form.username(placeholder="Username") }}
+                </div>
+                <div class="col-12 col-12-xsmall">
+                    {{ form.email(placeholder="eMail") }}
+                </div>
+                <div class="col-12 col-12-xsmall">
+                    {{ form.password(placeholder="Password") }}
+                </div>
+
+                <div class="col-12">
+                    <ul class="actions">
+                        <li>
+                            <input type='submit' name='submit' value='register' class="primary"/>
+                        </li>
+                        <li>
+                            or <a href={{ url_for('login') }}>Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </section>
+
