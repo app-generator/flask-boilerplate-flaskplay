@@ -50,15 +50,15 @@ Open-Source starter coded in Flask Microframework, pre-configured with **Flask-S
 
 <br />
 
-![Flask Boilerplate - FlaskPlay, App Menu](https://github.com/app-generator/flask-boilerplate/blob/master/screenshots/flask-boilerplate-menu.jpg)
+![Flask Boilerplate - FlaskPlay, App Menu](https://github.com/app-generator/flask-boilerplate-flaskplay/blob/master/screenshots/flask-boilerplate-menu.jpg)
 
 <br />
 
-![Flask Boilerplate - FlaskPlay, Login Page](https://github.com/app-generator/flask-boilerplate/blob/master/screenshots/flask-boilerplate-login.jpg)
+![Flask Boilerplate - FlaskPlay, Login Page](https://github.com/app-generator/flask-boilerplate-flaskplay/blob/master/screenshots/flask-boilerplate-login.jpg)
 
 <br />
 
-![Flask Boilerplate - FlaskPlay, Elements Page](https://github.com/app-generator/flask-boilerplate/blob/master/screenshots/flask-boilerplate-elements.jpg)
+![Flask Boilerplate - FlaskPlay, Elements Page](https://github.com/app-generator/flask-boilerplate-flaskplay/blob/master/screenshots/flask-boilerplate-elements.jpg)
 
 <br />
 
