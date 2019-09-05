@@ -4,7 +4,7 @@ Open-Source starter coded in Flask Microframework, pre-configured with **Flask-S
 
 <br />
 
-![Flask Boilerplate](https://github.com/app-generator/flask-boilerplate-flaskplay/blob/master/screenshots/flask-boilerplate-intro.gif)
+![Flask Boilerplate](https://github.com/app-generator/static/blob/master/products/flask-boilerplate-flaskplay-intro.gif?raw=true)
 
 <br />
 
