@@ -13,8 +13,8 @@ Open-Source starter coded in Flask Microframework, pre-configured with **Flask-S
 
 1. Clone the repo
   ```
-  $ git clone https://github.com/app-generator/flask-boilerplate.git
-  $ cd flask-boilerplate
+  $ git clone https://github.com/app-generator/flask-boilerplate-flaskplay.git
+  $ cd flask-boilerplate-flaskplay
   ```
 
 2. Initialize and activate a virtualenv:
@@ -71,4 +71,3 @@ Open-Source starter coded in Flask Microframework, pre-configured with **Flask-S
 
 ---
 [Flask Boilerplate](https://flask-boilerplate.appseed.us) provided by **AppSeed**
-

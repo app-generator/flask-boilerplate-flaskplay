@@ -43,7 +43,7 @@ def register():
     msg = None
 
     # custommize your pate title / description here
-    page_title       = 'Register - FlaskPlay Open-Source Boilerplate | AppSeed App Generator'
+    page_title       = 'Register - FlaskPlay Open-Source Boilerplate | AppSeed'
     page_description = 'Open-Source Flask Boilerplate, registration page.'
 
     # check if both http method is POST and form is valid on submit
@@ -89,7 +89,7 @@ def login():
     msg = None
 
     # custommize your page title / description here
-    page_title = 'Login - FlaskPlay Open-Source Boilerplate | AppSeed App Generator'
+    page_title       = 'Login - FlaskPlay Open-Source Boilerplate | AppSeed App Generator'
     page_description = 'Open-Source Flask Boilerplate, login page.'
 
     # check if both http method is POST and form is valid on submit
@@ -124,7 +124,7 @@ def login():
 def elements():
 
     # custommize your page title / description here
-    page_title = 'Elements - FlaskPlay Open-Source Boilerplate | AppSeed App Generator'
+    page_title       = 'Flask Boilerplate - FlaskPlay elements page  | AppSeed '
     page_description = 'Open-Source Flask Boilerplate, the design elements page.'
 
     # try to match the pages defined in -> themes/phantom/pages/
@@ -136,7 +136,7 @@ def elements():
 def about():
 
     # custommize your page title / description here
-    page_title = 'Login - FlaskPlay Open-Source Boilerplate | AppSeed App Generator'
+    page_title       = 'Flask Boilerplate - FlaskPlay about page  | AppSeed '
     page_description = 'Open-Source Flask Boilerplate, a generic page, rendered by Flask.'
 
     # try to match the pages defined in -> themes/phantom/pages/
