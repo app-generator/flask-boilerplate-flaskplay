@@ -1,0 +1,145 @@
+{% extends "layouts/base-site.html" %}
+
+{% block title %} Home {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+        <header>
+
+            <h1><a href="https://palletsprojects.com/p/flask/">Flask</a> Boilerplate</h1>
+
+            <p>This is FlaskPlay, an open-source <a href="https://github.com/app-generator/flask-boilerplate-flaskplay">Flask Boilerplate</a> 
+            	designed by HTML5 UP and coded in <a href="https://palletsprojects.com/p/flask/">Flask Microframework</a>.
+			</p>
+
+			<p>
+				{% if current_user.is_authenticated %}
+					You are <strong>authenticated</strong>, <a href={{ url_for('logout') }}>Logout</a> 
+				{% else %}
+					You are <strong>NOT authenticated</strong>, please <a href={{ url_for('login') }}>Login</a>  
+				{% endif %}
+			</p>
+
+            <p>
+				<a href="https://palletsprojects.com/p/flask/">Flask</a> is a Python web framework built with a small core and easy-to-extend philosophy.
+				Flask is also easy to get started with as a beginner because there is little boilerplate code for getting a simple app up and running.
+			</p>
+
+			<p>
+				Get the <a href="https://github.com/app-generator/flask-boilerplate-flaskplay">source code</a> or 
+				<strong>read more</strong> about this <a href="https://blog.appseed.us/flaskplay-open-source-flask-boilerplate">Flask Boilerplate.</a>
+			</p>
+
+        </header>
+
+		<section class="tiles">
+			<article class="style1">
+				<span class="image">
+					<img src="/static/images/pic01.jpg" 
+					     alt="Image for link Read More about FlaskPlay, the open-source Flask Boilerplate." />
+				</span>
+				<a href="/about">
+					<h2>Generic Page</h2>
+					<div class="content">
+						<p>Simple page displayed by Flask</p>
+					</div>
+				</a>
+			</article>
+			<article class="style2">
+				<span class="image">
+					<img src="/static/images/pic02.jpg" alt="Image for link to Python.org." />
+				</span>
+				<a href="https://www.python.org/">
+					<h2>Python</h2>
+					<div class="content">
+						<p>Learn Python</p>
+					</div>
+				</a>
+			</article>
+			<article class="style3">
+				<span class="image">
+					<img src="/static/images/pic03.jpg" alt="Image for link to Flask Microframework, the official website." />
+				</span>
+				<a href="http://flask.pocoo.org/">
+					<h2>Flask</h2>
+					<div class="content">
+						<p>Read more about Flask Microframework</p>
+					</div>
+				</a>
+			</article>
+			<article class="style5">
+				<span class="image">
+					<img src="/static/images/pic05.jpg" alt="Image for link to FullStackPython.com." />
+				</span>
+				<a href="https://www.fullstackpython.com/flask.html">
+					<h2>Full-Stack Pyhton</h2>
+					<div class="content">
+						<p>Learn More about Flask on FullStackPython.com</p>
+					</div>
+				</a>
+			</article>
+			<article class="style6">
+				<span class="image">
+					<img src="/static/images/pic06.jpg" alt="Image for link to tutorials provided by RealPython.com." />
+				</span>
+				<a href="https://realpython.com/tutorials/flask/">
+					<h2>Flask Tutorials</h2>
+					<div class="content">
+						<p>Python Tutorials, provided by RealPython.com</p>
+					</div>
+				</a>
+			</article>
+			<article class="style2">
+				<span class="image">
+					<img src="/static/images/pic07.jpg" alt="Image for link to Flask Mega Tutorial." />
+				</span>
+				<a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">
+					<h2>Flask Mega Tutorial</h2>
+					<div class="content">
+						<p>A must-read Flask tutorial, written by Miguel Grinberg</p>
+					</div>
+				</a>
+			</article>
+			<article class="style3">
+				<span class="image">
+					<img src="/static/images/pic08.jpg" alt="Image for link to Vue.js integration into Flask tutorial." />
+				</span>
+				<a href="https://dev.to/michaelbukachi/flask-vue-js-integration-tutorial-2g90">
+					<h2>Flask Vue.js Integration</h2>
+					<div class="content">
+						<p>Learn how to bundle Flask with Vue.js</p>
+					</div>
+				</a>
+			</article>
+			<article class="style1">
+				<span class="image">
+					<img src="/static/images/pic09.jpg" alt="Image for link to an index with curated resources for Flask, on Github." />
+				</span>
+				<a href="https://github.com/humiaozuzu/awesome-flask">
+					<h2>Awesome Flask</h2>
+					<div class="content">
+						<p>A curated list of awesome Flask resources and plugins, published on Github</p>
+					</div>
+				</a>
+			</article>
+			<article class="style4">
+				<span class="image">
+					<img src="/static/images/pic04.jpg" alt="Image for link to AppSeed App Generator, the provider and maintainer of this free project." />
+				</span>
+				<a href="https://appseed.us">
+					<h2>AppSeed</h2>
+					<div class="content">
+						<p>Build React, Vue.js Apps in no-time.</p>
+					</div>
+				</a>
+			</article>
+
+		</section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

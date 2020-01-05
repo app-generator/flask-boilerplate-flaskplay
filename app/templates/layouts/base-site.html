@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+        <title>
+            FlaskPlay Boilerplate - {% block title %}{% endblock %} | AppSeed
+        </title>
+
+        <link rel="shortcut icon" type="image/png" href="/static/favicon.ico"/>
+        <meta name="description" content="Open-Source starter coded in Flask Microfremwork, enhanced with authentication (login, logout), SQLite.">
+
+        <link rel="stylesheet" href="/static/assets/css/main.css" />
+		
+        <noscript>
+            <link rel="stylesheet" href="/static/assets/css/noscript.css" />
+        </noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+                <header id="header">
+                    <div class="inner">
+
+                        <!-- Logo -->
+                        <a href="/" class="logo">
+                            <span class="symbol">
+                                <img src="/static/images/logo.svg" alt="" />
+                            </span>
+                            <span class="title">FlaskPlay</span>
+                        </a>
+
+                        <!-- Nav -->
+                            <nav>
+                                <ul>
+                                    <li><a href="#menu">Menu</a></li>
+                                </ul>
+                            </nav>
+
+                    </div>
+                </header>
+
+                {% include 'includes/navigation.html' %}
+
+				<!-- Main -->
+                <div id="main">
+                    <div class="inner">
+
+                        {% block content %}{% endblock content %}        
+                        
+                    </div> 
+                </div>
+
+                {% include 'includes/footer.html' %}
+
+			</div>
+
+        {% include 'includes/scripts.html' %}
+
+	</body>
+</html>
+
