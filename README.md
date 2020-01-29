@@ -1,8 +1,8 @@
 # [Flaskplay Boilerplate](https://www.youtube.com/watch?v=XgkIZsMgkBc)
 
-**Open-Source Web App** coded in **Flask Framework** on top of **Phantom** design. **Features**:
+**Open-Source Web App** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-<br />
+### App Features:
 
 - SQLite database
 - SQLAlchemy ORM
@@ -84,4 +84,4 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 <br />
 
 ---
-[Flaskplay Boilerplate](https://www.youtube.com/watch?v=XgkIZsMgkBc) provided by **AppSeed**
+[Flaskplay Boilerplate](https://www.youtube.com/watch?v=XgkIZsMgkBc) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
